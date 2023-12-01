@@ -57,12 +57,14 @@ table {
 button {
     background-color: var(--white);
     border: 0;
+    border-radius: 25px;
     font-family: 'Lexend Deca', sans-serif;
 }
 
 h2 {
     color: var(--white);
     font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
 }
 
 main {
@@ -84,12 +86,24 @@ p {
     background-color: var(--very-dark-cyan);
 }
 
+.luxury > button {
+    color: var(--very-dark-cyan);
+}
+
 .sedans {
     background-color: var(--bright-orange);
 }
 
+.sedans > button {
+    color: var(--bright-orange);
+}
+
 .suvs {
     background-color: var(--dark-cyan);
+}
+
+.suvs > button {
+    color: var(--dark-cyan);
 }
 
 .sr-only {
