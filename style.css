@@ -65,6 +65,10 @@ h2 {
     font-family: 'Big Shoulders Display', sans-serif;
 }
 
+main {
+    display: flex;
+}
+
 p {
     color: var(--white);
     font-family: 'Lexend Deca', sans-serif;
