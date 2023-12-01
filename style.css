@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    font-size: 93.75%;
 	line-height: 1;
 }
 ol, ul {
@@ -54,6 +55,11 @@ table {
     --white: hsl(100, 100%, 100%);
 }
 
+article {
+    width: 100%;
+    max-width: 30%;
+}
+
 button {
     background-color: var(--white);
     border: 0;
@@ -64,6 +70,7 @@ button {
 h2 {
     color: var(--white);
     font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
