@@ -52,6 +52,14 @@ table {
     --white: hsl(100, 100%, 100%);
 }
 
+article {
+    padding: 10%;
+}
+
+article > img {
+    padding-bottom: 10%;
+}
+
 body {
     align-items: center;
     display: flex;
