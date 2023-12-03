@@ -28,10 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-    font-size: 93.75%;
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -55,9 +52,13 @@ table {
     --white: hsl(100, 100%, 100%);
 }
 
-article {
-    width: 100%;
-    max-width: 30%;
+body {
+    align-items: center;
+    display: flex;
+    font-size: 93.75%;
+    height: 100vh;
+    justify-content: center;
+	line-height: 1;
 }
 
 button {
@@ -75,7 +76,10 @@ h2 {
 }
 
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 70%;
+    width: 100%;
 }
 
 p {
@@ -85,7 +89,14 @@ p {
 
 .attribution { 
     font-size: 11px; 
+    background-color: transparent;
+    font-size: 11px; 
     text-align: center; 
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 5%;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
