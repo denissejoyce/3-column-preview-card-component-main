@@ -123,6 +123,7 @@ main {
 
 .luxury {
     background-color: var(--very-dark-cyan);
+    border-radius: 0 10px 10px 0;
 }
 
 .luxury > button {
@@ -131,6 +132,7 @@ main {
 
 .sedans {
     background-color: var(--bright-orange);
+    border-radius: 10px 0 0 10px;
 }
 
 .sedans > button {
