@@ -80,7 +80,7 @@ body {
 
 button {
     background-color: var(--white);
-    border: 0;
+    border: solid 1px var(--white);
     border-radius: 23px;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
@@ -130,6 +130,12 @@ main {
     color: var(--very-dark-cyan);
 }
 
+.luxury > button:hover {
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+    cursor: pointer;
+}
+
 .sedans {
     background-color: var(--bright-orange);
     border-radius: 10px 0 0 10px;
@@ -139,12 +145,24 @@ main {
     color: var(--bright-orange);
 }
 
+.sedans > button:hover {
+    background-color: var(--bright-orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
 .suvs {
     background-color: var(--dark-cyan);
 }
 
 .suvs > button {
     color: var(--dark-cyan);
+}
+
+.suvs > button:hover {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    cursor: pointer;
 }
 
 .sr-only {
