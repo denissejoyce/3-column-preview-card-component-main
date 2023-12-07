@@ -185,6 +185,14 @@ main {
     overflow: hidden;
 }
 
+@media (max-width: 900px) {
+    main {
+        gap: 0;
+        grid-template-columns: 1fr 1fr;
+        max-width: 60%;
+    }
+}
+
 @media (max-width: 700px) {
     main {
         gap: 0;
