@@ -192,7 +192,14 @@ main {
         max-width: 60%;
     }
     .luxury {
+        border-radius: 0 0 10px 10px;
         grid-column: 1/4;
+    }
+    .sedans {
+        border-bottom-left-radius: 0;
+    } 
+    .suvs {
+        border-top-right-radius: 10px;
     }
 }
 
