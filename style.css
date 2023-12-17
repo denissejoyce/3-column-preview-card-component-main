@@ -73,7 +73,7 @@ article > p {
     line-height: 1.6;
     /* max-height: 14rem; */
     max-width: 76%;
-    padding-bottom: 45%;
+    /* padding-bottom: 45%; */
     width: 100%;
 }
 
@@ -86,7 +86,7 @@ body {
 	
 }
 
- article a {
+article a {
     background-color: var(--white);
     border: solid 1px var(--white);
     border-radius: 23px;
@@ -188,8 +188,11 @@ main {
 @media (max-width: 900px) {
     main {
         gap: 0;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto auto;
         max-width: 60%;
+    }
+    .luxury {
+        grid-column: 1/4;
     }
 }
 
