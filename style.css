@@ -81,7 +81,7 @@ body {
     align-items: center;
     display: flex;
     font-size: 93.75%;
-    height: 100vh;
+    height: 100vh; 
     justify-content: center;
 	
 }
@@ -226,19 +226,28 @@ main {
         max-width: 80%;
         padding-bottom: 15%;
     }
+    body {
+        height: 100%;
+    }
     h2 {
         padding: 8% 0;
     }
     main {
         gap: 0;
         grid-template-columns: 1fr;
-        max-width: 50%;
+        max-width: 80%;
     }
-
+    main::before {
+        content: '';
+        display: block;
+        height: 50px;
+    }
+    .attribution {  
+        position: block;
+    }
     .luxury {
         border-radius: 0 0 10px 10px;
     }
-
     .sedans {
         border-radius: 10px 10px 0 0;
     }
