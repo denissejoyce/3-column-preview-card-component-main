@@ -222,6 +222,13 @@ main {
 }
 
 @media (max-width: 700px) {
+    article > p {
+        max-width: 80%;
+        padding-bottom: 15%;
+    }
+    h2 {
+        padding: 8% 0;
+    }
     main {
         gap: 0;
         grid-template-columns: 1fr;
