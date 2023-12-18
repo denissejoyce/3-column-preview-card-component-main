@@ -222,6 +222,9 @@ main {
         max-width: 80%;
         padding-bottom: 15%;
     }
+    article > a {
+        padding: 2% 4%;
+    }
     body {
         height: 100%;
     }
