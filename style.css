@@ -257,7 +257,7 @@ main {
 
 @media (max-width: 511px) {
     .attribution {  
-        top: 150%;
+        top: 180%;
     }
     .attribution::after {
         content: '';
