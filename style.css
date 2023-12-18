@@ -54,6 +54,7 @@ table {
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
     --white: hsl(0, 0%, 95%);
+    --white-bg: hsla(0, 0%, 100%, 0.75);
 }
 
 article {
@@ -75,6 +76,7 @@ article > p {
 
 body {
     align-items: center;
+    background-color: var(--white-bg);
     display: flex;
     font-size: 93.75%;
     min-height: 100vh; 
