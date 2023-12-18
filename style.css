@@ -81,7 +81,7 @@ body {
     align-items: center;
     display: flex;
     font-size: 93.75%;
-    height: 100vh; 
+    min-height: 100vh; 
     justify-content: center;
 	
 }
@@ -240,15 +240,32 @@ main {
     main::before {
         content: '';
         display: block;
-        height: 50px;
+        height: 5rem;
     }
     .attribution {  
-        position: block;
+        display: grid;
+        top: 170%;
+    }
+    .attribution::after {
+        content: '';
+        display: block;
+        height: 2rem;
     }
     .luxury {
         border-radius: 0 0 10px 10px;
     }
     .sedans {
         border-radius: 10px 10px 0 0;
+    }
+}
+
+@media (max-width: 511px) {
+    .attribution {  
+        top: 150%;
+    }
+    .attribution::after {
+        content: '';
+        display: block;
+        height: 2rem;
     }
 }
