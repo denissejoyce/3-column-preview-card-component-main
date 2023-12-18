@@ -185,7 +185,7 @@ main {
     overflow: hidden;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 701px) {
     article > p {
         max-width: 80%;
         padding-bottom: 15%;
