@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- [Live](https://your-live-site-url.com](https://thunderous-boba-aafca6.netlify.app/)
+- [Live](https://thunderous-boba-aafca6.netlify.app/)
 
 ## My process
 
